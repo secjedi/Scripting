@@ -10,7 +10,7 @@ for guessesTaken in range(1,5):
     print('Take a guess.')
     guess = int(input())
     if guess < secretNumber:
-        print('Too low. Take it up a notch')
+        print('Too low. Take it up a notch \U0001f600')
     elif guess > secretNumber:
         print('Ok. A bit too high. Its not that crazy \U0001F923')
     else:
